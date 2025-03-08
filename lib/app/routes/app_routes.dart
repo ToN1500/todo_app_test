@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import '../views/home_view.dart';
-import '../views/add_todo_view.dart';
+import '../screens/todo/home_screen.dart';
+import '../screens/todo/add_todo_screen.dart';
 
 class AppRoutes {
   static final routes = [
-    GetPage(name: '/', page: () => HomeView()),
-    GetPage(name: '/add', page: () => AddTodoView()),
+    GetPage(name: '/', page: () => HomeScreen()),
+    GetPage(name: '/add', page: () => AddTodoScreen()),
   ];
 }

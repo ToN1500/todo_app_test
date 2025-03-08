@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/todo_controller.dart';
+import '../../controllers/todo_controller.dart';
 
-class HomeView extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   final TodoController toDoController = Get.put(TodoController());
 
   @override

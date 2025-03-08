@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/todo_controller.dart';
+import '../../controllers/todo_controller.dart';
 
-class AddTodoView extends StatelessWidget {
+class AddTodoScreen extends StatelessWidget {
   final TodoController toDoController = Get.find();
   final TextEditingController textController = TextEditingController();
 
